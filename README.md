@@ -1,2 +1,2 @@
 # PyMLStockPredictor
-Python Machine Learning Stock Predictor - in progress.
+This repository consists of 2 machine learning stock predictor models I wrote by using help from online tutorials and my programming skills. Both predict movements of daily stock price data but one using scikit-learn's Random Forest Generator and another by using a LSTM recurrent neutral network with Pytorch. They are both very much in development and to put my personal twist on the project I will be synchronising the data sources and comparing outputs and efficacy. 
