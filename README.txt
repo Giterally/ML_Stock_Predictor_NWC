@@ -1,4 +1,4 @@
-Explanation of the Two Stock Predictors
+With the help of various online tutorials and my own knowledge, I have built two Stock Predictors trained and tested on AMZN's daily pricing history. I have then compared output in a comparison of metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), R-squared (R²) value and am currently developing a trading simulation for comparison of the efficacy of the 2 models.
 
 
 
