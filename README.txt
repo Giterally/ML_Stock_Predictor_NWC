@@ -1,5 +1,6 @@
-With the help of various online tutorials and my own knowledge, I have built two Stock Predictors trained and tested on AMZN's daily pricing history. I have then compared output in a comparison of metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), R-squared (R²) value and am currently developing a trading simulation for comparison of the efficacy of the 2 models.
-
+With the help of various online tutorials and my own knowledge, I have built two Stock Predictors trained and tested on AMZN's daily pricing history. I have then compared output in a comparison of metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), R-squared (R²) value and developed a trading simulation in C++ for comparison of the efficacy of the 2 models. This was carried out after standardising the output to a .csv file containing 2 columns: "Target" and "Predictions" with ~300 rows of 1s and 0s.
+A 0 indicated price decreasing that day and a 1 indicated increase. The "Target" was what actually happened, and the "Predictions" was what each model predicted.
+This data was then fed into "comparison_script.py" for the error comparison and the "trading_simulator" directory which contains the trading simulator built using C++.
 
 
 Model 1: Random Forest Classifier
