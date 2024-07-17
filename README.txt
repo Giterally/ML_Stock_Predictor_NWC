@@ -46,3 +46,6 @@ Train the LSTM model using the training dataset and validate its performance on 
 
 Performance Evaluation:
 Plot the actual and predicted stock prices to visually assess the model's performance.
+
+
+Download the 'StockPredictorResults.docx' file to view the results of the models and their comparison.
