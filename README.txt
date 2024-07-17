@@ -39,8 +39,10 @@ Normalize the data using MinMaxScaler.
 
 Dataset Preparation:
 Convert the preprocessed data into PyTorch tensors and create datasets for training and testing.
+
 Model Definition:
 Define an LSTM model with one input feature (closing price), a hidden layer of size 4, and one output layer.
+
 Training and Validation:
 Train the LSTM model using the training dataset and validate its performance on the testing dataset.
 
