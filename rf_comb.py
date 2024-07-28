@@ -25,7 +25,7 @@ sp500 = sp500.loc[sp500.index >= start_date].copy()
 '''
 
 file_path = r"C:\Users\zcemrpo\OneDrive - University College London\Downloads\CODE\pytorch\AMZN.csv"
-#daily stock history of amazon
+# Daily stock history of amazon
 amzn = pd.read_csv(file_path)
 
 # Plot S&P 500 closing prices
