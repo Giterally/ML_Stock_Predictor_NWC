@@ -50,4 +50,5 @@ Performance Evaluation:
 Plot the actual and predicted stock prices to visually assess the model's performance.
 
 
-Download the 'StockPredictorResults.docx' file to view the results of the models and their comparison.
+
+For comparison results, please view my github pages at: 'https://giterally.github.io/' 
