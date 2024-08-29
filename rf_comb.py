@@ -100,4 +100,4 @@ print(predictions)
 # Save predictions
 predictions.to_csv('rf_predictions.csv', index=False)
 
-#predict 1 = price goes up, predict 0 = price goes
+#predict 1 = price goes up, predict 0 = price goes down
