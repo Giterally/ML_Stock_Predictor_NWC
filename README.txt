@@ -4,6 +4,7 @@ This data was then fed into "comparison_script.py" for the error comparison and 
 
 
 Model 1: Random Forest Classifier
+Random Forest Models work by training multiple decision trees with randomized parameters and averaging their results, which makes them resistant to overfitting compared to single decision trees or neural networks. They are chosen for their interpretability, unlike neural networks, and are robust to varying data distributions, outperforming linear models like regression. Random Forests run relatively quickly compared to slower alternatives like Gradient Boosting Machines and can easily capture non-linear relationships, which is crucial in stock prediction where patterns like opening price don’t follow a simple linear trend. While models like SVMs can handle non-linearity, Random Forests are faster and more intuitive to tune.
 Steps:
 
 Data Loading:
@@ -28,6 +29,7 @@ Calculate and display the precision score and the distribution of predictions.
 
 
 Model 2: Long Short-Term Memory (LSTM) Neural Network
+RNN LSTMs are designed to handle sequential data by learning long-term dependencies, making them ideal for time series tasks like stock price prediction, where past data significantly influences future outcomes. Unlike feedforward neural networks that treat inputs independently, LSTMs process sequences and maintain memory through hidden states, allowing them to capture patterns across time. They are robust against noise due to their internal gating mechanisms and excel at modeling non-linear relationships, outperforming linear models like regression and basic RNNs. While simpler models like feedforward networks or linear regression struggle with temporal dependencies and non-linear trends, LSTMs are more suited for complex, real-world data sequences.
 Steps:
 
 Data Loading:
